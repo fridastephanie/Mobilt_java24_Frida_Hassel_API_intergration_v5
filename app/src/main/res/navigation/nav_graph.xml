@@ -1,0 +1,44 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <action
+        android:id="@+id/action_global_homeFragment"
+        app:destination="@id/homeFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="se.gritacademy.inlamning3_dogs.ui.home.HomeFragment"
+        android:label="Home"/>
+
+    <fragment
+        android:id="@+id/breedListFragment"
+        android:name="se.gritacademy.inlamning3_dogs.ui.breedlist.BreedListFragment"
+        android:label="Breeds">
+        <action
+            android:id="@+id/action_breedList_to_detail"
+            app:destination="@id/breedDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/breedDetailFragment"
+        android:name="se.gritacademy.inlamning3_dogs.ui.breeddetail.BreedDetailFragment"
+        android:label="Breed Detail">
+        <argument
+            android:name="breedId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="se.gritacademy.inlamning3_dogs.ui.favorites.FavoritesFragment"
+        android:label="Favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_breedDetailFragment"
+            app:destination="@id/breedDetailFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Dog Breeds"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:fontFamily="serif"
+        android:textColor="@color/ligth_beige"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+    <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dogs"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBreedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See all breeds"
+        android:backgroundTint="@color/ligth_beige"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favorite breeds"
+        android:backgroundTint="@color/ligth_beige"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
