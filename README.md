@@ -71,17 +71,17 @@ Click the Run button in Android Studio.
 
 ## Screenshots
 #### Portrait:
-<img width="160" height="350" alt="image" src="https://github.com/user-attachments/assets/55c1ca91-b569-4c26-a627-ee8d60335ed5" />
-<img width="160" height="350" alt="image" src="https://github.com/user-attachments/assets/faa230ba-a320-466e-ac05-98d1aaa55190" />
-<img width="160" height="350" alt="image" src="https://github.com/user-attachments/assets/ab52e419-1ef4-40d8-b7ff-960f6cad3110" />
-<img width="160" height="350" alt="image" src="https://github.com/user-attachments/assets/2bd3f094-7509-4c27-96b2-ea5fa219f886" />  
+<img width="170" height="350" alt="image" src="https://github.com/user-attachments/assets/55c1ca91-b569-4c26-a627-ee8d60335ed5" /> 
+<img width="170" height="350" alt="image" src="https://github.com/user-attachments/assets/faa230ba-a320-466e-ac05-98d1aaa55190" /> 
+<img width="170" height="350" alt="image" src="https://github.com/user-attachments/assets/ab52e419-1ef4-40d8-b7ff-960f6cad3110" /> 
+<img width="170" height="350" alt="image" src="https://github.com/user-attachments/assets/2bd3f094-7509-4c27-96b2-ea5fa219f886" />   
 
 #### Landscape: 
 
-<img width="350" height="160" alt="image" src="https://github.com/user-attachments/assets/aa2fc8e6-34f2-42d2-94e6-0648fb5a7fca" />
-<img width="350" height="160" alt="image" src="https://github.com/user-attachments/assets/dc710e56-b029-42f7-a08f-30712d709307" />
-<img width="350" height="160" alt="image" src="https://github.com/user-attachments/assets/d6b7c792-0f8f-4d8d-b354-a31a11fb7e18" />
-<img width="350" height="160" alt="image" src="https://github.com/user-attachments/assets/542ff52c-3712-495a-b252-31afef086f4b" />
+<img width="350" height="170" alt="image" src="https://github.com/user-attachments/assets/aa2fc8e6-34f2-42d2-94e6-0648fb5a7fca" />
+<img width="350" height="170" alt="image" src="https://github.com/user-attachments/assets/dc710e56-b029-42f7-a08f-30712d709307" />
+<img width="350" height="170" alt="image" src="https://github.com/user-attachments/assets/d6b7c792-0f8f-4d8d-b354-a31a11fb7e18" />
+<img width="350" height="170" alt="image" src="https://github.com/user-attachments/assets/542ff52c-3712-495a-b252-31afef086f4b" />
 
 ## Troubleshooting
 
